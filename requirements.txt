@@ -1,0 +1,6 @@
+tensorflow
+opencv-python
+pandas
+numpy
+h5py
+pyserial

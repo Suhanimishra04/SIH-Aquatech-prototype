@@ -1,0 +1,17 @@
+{
+    "Paramecium": 0,
+    "Euglena": 2,
+    "Spherical": 1,
+    "Amoeba": 3,
+    "Amoeba.png": 4,
+    "Euglena.png": 5,
+    "Hydra": 6,
+    "Hydra.png": 7,
+    "Paramecium.png": 8,
+    "Road": 9,
+    "Rod Bacteria": 10,
+    "Spherical Bacteria": 11,
+    "Spiral": 12,
+    "Spiral Bacteria": 13,
+    "Yeast": 14
+}

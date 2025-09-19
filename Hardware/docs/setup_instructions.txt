@@ -1,0 +1,35 @@
+Embedded Intelligent Microscopy System - Hardware Setup Instructions
+
+1. Required Components:
+   - Arduino Uno R3
+   - LEDs (5 pieces)
+   - Resistors (220 ohm for LEDs)
+   - Potentiometer (10K ohm)
+   - DC motor and motor driver module (L298N or similar)
+   - USB webcam (for software integration)
+   - Breadboard and jumper wires
+   - USB cable for Arduino connection
+   - Power supply (if needed for motor)
+
+2. Wiring Overview:
+   - LED connected with 220-ohm resistor to digital pins 2–6.
+   - Built-in LED connected to pin 13.
+   - Motor driver connected to pins 7 and 8 for forward/backward control.
+   - Potentiometer can be connected to analog pin A0 for brightness adjustment.
+   - USB webcam connected to laptop for video feed.
+   - USB cable connects Arduino to laptop for programming and serial communication.
+
+3. Uploading Code:
+   - Open Arduino IDE.
+   - Select the correct board (Arduino Uno) and COM port.
+   - Open the appropriate `.ino` file and upload.
+
+4. Testing:
+   - Test each module separately before integration.
+   - Run serial commands using Python scripts in the software folder.
+   - Confirm LED control and motor operation.
+
+5. Safety Guidelines:
+   - Disconnect power when wiring.
+   - Avoid touching powered circuits.
+   - Use resistors to prevent damage to LEDs.
