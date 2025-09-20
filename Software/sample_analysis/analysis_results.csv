@@ -1,2 +1,6 @@
-FrameID,Species,Count,Confidence (%)
-LiveFrame,Paramecium,3,38.32
+Filename,Species,Count,Confidence (%)
+IMG00285.JPG,Paramecium,1663,37.73
+IMG00286.JPG,Euglena,452,35.5
+IMG00287.JPG,Euglena,487,35.44
+IMG00289.JPG,Euglena,778,36.56
+IMG00290.JPG,Euglena,838,36.9

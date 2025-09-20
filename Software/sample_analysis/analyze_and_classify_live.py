@@ -67,7 +67,9 @@ def main():
     logging.getLogger("PIL").setLevel(logging.ERROR)
     warnings.filterwarnings("ignore", category=UserWarning)
 
-    cap = cv2.VideoCapture(0)  # 0 = default camera, try 1/2 if USB microscope is not first device
+    cap = cv2.VideoCapture(0)  # or 1, depending on index
+
+  # 0 = default camera, try 1/2 if USB microscope is not first device
 
     if not cap.isOpened():
         print("❌ Could not access microscope camera")
